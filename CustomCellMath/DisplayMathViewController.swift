@@ -11,6 +11,7 @@ import UIKit
 class DisplayMathViewController: UIViewController {
     
     var numbers: [Int] = []
+
     
     @IBOutlet weak var topLeftNumberLabel: UILabel!
     @IBOutlet weak var topRightNumberLabel: UILabel!
@@ -28,6 +29,7 @@ class DisplayMathViewController: UIViewController {
     
     @IBOutlet weak var operatorLabel: UILabel!
     
+
     
     
     override func viewDidLoad() {
